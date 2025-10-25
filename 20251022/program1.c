@@ -7,5 +7,5 @@ int main()
 	fflush(stdin);
 	scanf("a=%d,b=%d",&a,&b);
 	printf("您输入的是：a=%d,b=%d",a,b);
-	
+	return 0;
 }

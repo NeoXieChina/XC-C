@@ -8,4 +8,5 @@ int main()
 	printf("a=%d\n",b);
 	scanf("%d",&c);
 	printf("a=%d\n",c);
+	return 0;
 }
