@@ -1,0 +1,58 @@
+#include <stdio.h>
+int main ()
+{
+	int i;
+	printf("d\n请输入一个十进制数：");
+	fflush(stdin);
+	scanf("%d",&i);
+	printf("%d\n",i);
+	printf("i\n请依次输入十进制，十六进制，八进制，用空格隔开:");
+	fflush(stdin);
+	scanf("%i",&i);
+	printf("%i ",i);
+	scanf("%i",&i);
+	printf("%i ",i);
+	scanf("%i",&i);
+	printf("%i \n",i);
+	printf("u\n请输入一个无符号十进制数：");
+	fflush(stdin);
+	scanf("%u",&i);
+	printf("%u\n",i);
+	printf("o\n请输入一个无符号八进制数：");
+	fflush(stdin);
+	scanf("%o",&i);
+	printf("%d\n",i);
+	printf("x\n请输入一个无符号十六进制数：");
+	fflush(stdin);
+	scanf("%x",&i);
+	printf("%d\n",i);
+	printf("c\n请输入单个字符：");
+	fflush(stdin);
+	scanf("%c",&i);
+	printf("%c\n",i);
+	printf("a,A,e,E,f,F,g,G\n请输入一个小数（可带指数）：");
+	fflush(stdin);
+	scanf("%f",&i);
+	printf("%d\n",i);
+	printf("n\n请输入任意三个数（空格间隔）：");
+	fflush(stdin);
+	int j,k,l,m;
+	scanf("%d%d%n%d%n",&i,&j,&k,&l,&m);
+	printf("第一个数是%d，第二个数是%d，读取了%d个字符，第三个数是%d，一共读取了%d个字符。\n",i,j,k,l,m);
+	printf("p\n请输入十六进制指针：");
+	fflush(stdin);
+	int *p1;
+	scanf("%p",&p1);
+	printf("%p\n",&p1);
+	printf("s\n请输入一个字符串：");
+	fflush(stdin);
+	int str[80];
+	scanf("%s",str);
+	printf("%s\n",str);
+	printf("[]\n请输入一个字符串：");
+	fflush(stdin);
+	char stuNo[11];
+	scanf("%[0123456789]",stuNo);
+	printf("%s\n",stuNo);
+	return 0;
+}
