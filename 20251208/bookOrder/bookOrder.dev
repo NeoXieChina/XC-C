@@ -77,11 +77,11 @@ SyncProduct = 1
 
 
 [Unit2]
-FileName = book.c
+FileName = book.h
 CompileCpp = 0
-Folder = 源文件
-Compile = 1
-Link = 1
+Folder = 头文件
+Compile = 0
+Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -90,11 +90,11 @@ RealEncoding = UTF-8
 
 
 [Unit3]
-FileName = book.h
+FileName = book.c
 CompileCpp = 0
-Folder = 头文件
-Compile = 0
-Link = 0
+Folder = 源文件
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
