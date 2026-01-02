@@ -12,8 +12,10 @@ int main ()
 	if (digtals < 0) {
 		sign = -1;
 		temp = -digtals;
-	}
+	}else
+		temp=digtals;
 
+	
 	if ((digtals >= -999 && digtals <= -100) || (digtals >= 100 && digtals <= 999)) {
 
 		g = temp % 10;
